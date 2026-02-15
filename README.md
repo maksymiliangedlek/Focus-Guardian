@@ -23,7 +23,7 @@ FocusGuardian is a Python-based computer vision tool designed to break the habit
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/maksymiliangedlek/FocusGuardian.git](https://github.com/maksymiliangedlek/FocusGuardian.git)
+   git clone [https://github.com/maksymiliangedlek/FocusGuardian.git](https://github.com/maksymiliangedlek/Focus-Guardian.git)
    cd FocusGuardian
    ```
 
@@ -47,7 +47,7 @@ FocusGuardian is a Python-based computer vision tool designed to break the habit
 
 Simply run the main script:
 ```bash
-python main.py
+python src/main.py
 ```
 
 - **OK - you are focused**: Everything is fine (Green boxes).
@@ -56,7 +56,7 @@ python main.py
 
 ## ⚙️ Configuration
 
-You can fine-tune the sensitivity in `main.py` to match your camera setup:
+You can fine-tune the sensitivity in `src/main.py` to match your camera setup:
 
 | Parameter | Default | Description |
 | :--- | :--- | :--- |
