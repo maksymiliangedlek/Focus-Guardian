@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+mp_env/
+venv/
+env/
+.venv/
+
+.vscode/
+.idea/
+
+.ruff_cache
