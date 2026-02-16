@@ -10,3 +10,6 @@ env/
 .idea/
 
 .ruff_cache
+
+.DS_Store
+*.patch

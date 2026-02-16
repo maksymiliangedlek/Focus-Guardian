@@ -54,7 +54,7 @@ python src/app.py
 - **LOOKING DOWN / SIDE / HEAD DOWN**: The timer starts (Red boxes).
 - **Penalty Trigger**: If the state persists for more than `0.5s` (default), the video window pops up.
 
-## ⚙️ Configuration
+## Configuration
 
 You can fine-tune the sensitivity in `src/config.py` to match your camera setup:
 
