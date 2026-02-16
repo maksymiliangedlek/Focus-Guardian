@@ -2,6 +2,11 @@
 
 FocusGuardian is a Python-based computer vision tool designed to break the habit of "doom-scrolling" or basically to manage your focus. Using MediaPipe's advanced Face Landmarker, the app monitors your focus in real-time. If you look away, check your phone (detected via head pitch), or look to the sides for too long, the app triggers a "penalty" video and audio loop to bring your attention back to your work(literally ;) ).
 
+## Demo
+
+![App demo](data/demo.gif)
+*App detects looking at phone and triggers video penalty.*
+
 ## Features
 
 - **Real-Time Gaze Tracking**: Uses MediaPipe Blendshapes to detect if eyes are looking up, down, or sideways.

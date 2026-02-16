@@ -7,7 +7,7 @@ from typing import Tuple
 class Config:
     model_path: str = "data/face_landmarker.task"
     video_path: str = "data/video.mp4"
-    music_path: str = "data/video.wav"
+    music_path: str = "data/video.mp3"
     look_away_limit: float = 0.5
     threshold_down: float = 0.5
     threshold_side: float = 0.6
@@ -24,5 +24,5 @@ def resolve_config(base_dir: Path) -> Config:
     return Config(
         model_path=str(data_dir / "face_landmarker.task"),
         video_path=str(data_dir / "video.mp4"),
-        music_path=str(data_dir / "video.wav"),
+        music_path=str(data_dir / "video.mp3"),
     )
