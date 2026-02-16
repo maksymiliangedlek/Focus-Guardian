@@ -5,6 +5,7 @@ FocusGuardian is a Python-based computer vision tool designed to break the habit
 ## Demo
 
 ![App demo](data/demo.gif)
+
 *App detects looking at phone and triggers video penalty.*
 
 ## Features
@@ -46,7 +47,7 @@ FocusGuardian is a Python-based computer vision tool designed to break the habit
 4. **Prepare Data Folder:**
    You can change penalty video any time just by changing video files in a `data/` folder in the root directory:
    - `video.mp4`: Your choice of penalty video.
-   - `video.wav`: Your choice of penalty audio/music.
+   - `video.mp3`: Your choice of penalty audio/music(.wav also works just fine).
 
 ## How to Use
 
