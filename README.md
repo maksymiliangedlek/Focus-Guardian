@@ -45,9 +45,9 @@ FocusGuardian is a Python-based computer vision tool designed to break the habit
 
 ## 🚀 How to Use
 
-Simply run the main script:
+Simply run the app entrypoint:
 ```bash
-python src/main.py
+python src/app.py
 ```
 
 - **OK - you are focused**: Everything is fine (Green boxes).
@@ -56,7 +56,7 @@ python src/main.py
 
 ## ⚙️ Configuration
 
-You can fine-tune the sensitivity in `src/main.py` to match your camera setup:
+You can fine-tune the sensitivity in `src/config.py` to match your camera setup:
 
 | Parameter | Default | Description |
 | :--- | :--- | :--- |
