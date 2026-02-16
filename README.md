@@ -1,8 +1,8 @@
-# 👁️ FocusGuardian: Anti-Doom-Scrolling App
+# FocusGuardian: Anti-Doom-Scrolling App
 
 FocusGuardian is a Python-based computer vision tool designed to break the habit of "doom-scrolling" or basically to manage your focus. Using MediaPipe's advanced Face Landmarker, the app monitors your focus in real-time. If you look away, check your phone (detected via head pitch), or look to the sides for too long, the app triggers a "penalty" video and audio loop to bring your attention back to your work(literally ;) ).
 
-## ✨ Features
+## Features
 
 - **Real-Time Gaze Tracking**: Uses MediaPipe Blendshapes to detect if eyes are looking up, down, or sideways.
 - **Head Posture Detection**: Analyzes facial geometry to detect when you're tilting your head down (typically to look at a phone).
@@ -12,14 +12,14 @@ FocusGuardian is a Python-based computer vision tool designed to break the habit
 - **Dynamic Feedback**: On-screen bounding boxes for eyes that change color (Green/Red) based on your focus state.
 - **Auto-Resume**: The penalty video and audio stop immediately when you return your focus to the screen.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.x**
 - **MediaPipe Tasks API** (Face Landmarker & Blendshapes)
 - **OpenCV** (Video capture and rendering)
 - **Pygame** (Audio playback)
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -43,7 +43,7 @@ FocusGuardian is a Python-based computer vision tool designed to break the habit
    - `video.mp4`: Your choice of penalty video.
    - `video.wav`: Your choice of penalty audio/music.
 
-## 🚀 How to Use
+## How to Use
 
 Simply run the app entrypoint:
 ```bash
@@ -65,6 +65,6 @@ You can fine-tune the sensitivity in `src/config.py` to match your camera setup:
 | `THRESHOLD_HEAD_PITCH`| `0.30`| Head tilt sensitivity (Nose vs Ears position). |
 | `THRESHOLD_SIDE` | `0.6` | Eye gaze side sensitivity. |
 
-## 📜 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
